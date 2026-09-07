@@ -196,4 +196,13 @@ position = Vector2(1701, 804)
 [node name="FromMine" type="Marker2D" parent="." unique_id=344055090]
 position = Vector2(1761, 791)
 
+[node name="Label" type="Label" parent="." unique_id=1964802503]
+offset_left = 1399.0
+offset_top = 734.0
+offset_right = 1616.0
+offset_bottom = 768.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 24
+text = "Press Shift to Dash"
+
 [connection signal="body_entered" from="CaveEntrance" to="CaveEntrance" method="_on_body_entered"]

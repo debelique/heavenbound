@@ -12,7 +12,7 @@ signal died
 @export var attack_pools: Array[Array] = []       # Array[Array[AttackData]], indexed by phase
 @export var phase_thresholds: Array[float] = [0.5, 0.2]
 @export var max_phase: int = 3
-@export var max_hp: float = 200.0
+@export var max_hp: float = 500.0
 @export var max_poise: float = 100.0
 
 var current_hp: float

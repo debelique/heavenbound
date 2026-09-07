@@ -16,7 +16,7 @@ signal insufficient_charge(required: float, available: float)
 
 @export_group("Passive Regeneration")
 ## Set to 0 if this resource should ONLY fill via combat/kills, not passive regen.
-@export var passive_regen_rate: float = 100.0 #TODO CHANGE BACK TO 0.0
+@export var passive_regen_rate: float = 0.0 #TODO CHANGE BACK TO 0.0
 @export var regen_delay_after_use: float = 1.5  # seconds before passive regen kicks back in
 
 @export_group("Combat Charging")

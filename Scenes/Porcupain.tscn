@@ -156,6 +156,7 @@ unique_name_in_owner = true
 script = ExtResource("8_8v64p")
 
 [node name="StateLabel" type="Label" parent="." unique_id=2136533598]
+visible = false
 offset_left = -16.0
 offset_top = -72.0
 offset_right = 24.0

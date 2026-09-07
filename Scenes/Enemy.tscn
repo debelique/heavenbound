@@ -60,6 +60,7 @@ debug_color = Color(0.8392157, 0.6313726, 0, 1)
 
 [node name="Label" type="Label" parent="." unique_id=1764738892]
 unique_name_in_owner = true
+visible = false
 offset_left = 88.0
 offset_top = -80.0
 offset_right = 128.0
@@ -119,6 +120,7 @@ unique_name_in_owner = true
 script = ExtResource("8_idouy")
 
 [node name="StateLabel" type="Label" parent="." unique_id=2136533598]
+visible = false
 offset_left = -16.0
 offset_top = -72.0
 offset_right = 24.0
